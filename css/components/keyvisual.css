@@ -1,0 +1,32 @@
+.keyvisual {
+  position: relative;
+  background-image: url(../../img/keyvisual/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 750px;
+}
+
+.keyvisual-text {
+  padding-top: 8%;
+}
+
+.social-share {
+  display: inline-block;
+}
+
+.social-share li {
+  float: left;
+}
+
+.social-share li:nth-child(2) {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .keyvisual img {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
